@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kaliesha's Portfolio</title>
-            <!--internal style sheet-->
-            <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+
 <!--bootstrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+            <!--internal style sheet-->
+            <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 </head>
 <body>
     <header>
+  <!--Nav Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand name" href="index.html">Kaliesha Pickering</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,24 +31,19 @@
                             <a class="nav-link" href="contact.html">Contact</a>
                           </li>
                         </ul>
-                        <div class="connect-links ">
-                        <a class="navbar-brand" href="https://www.linkedin.com/in/kaliesha-pickering-855987a2/" target="_blank">
-                                <img src="Assets/images/linkedinlogo.jpg" width="30" height="30" alt="linkedin">
-                              </a>
-                              <a class="navbar-brand" href="https://github.com/kalieshapickering" target="_blank">
-                                    <img src="Assets/images/github.png" width="30" height="30" alt="GitHub">
-                                  </a><a class="navbar-brand" href="https://stackoverflow.com/users/9915373/kaliesha-pickering?tab=profile" target="_blank">
-                                        <img src="Assets/images/stackoverflow.png"  width="30" height="30" alt="Stack Overflow">
-                                      </a>
-                                    </div>
                       </div>
         </nav>
     </header>
     <br><br>
-    <main class="index-body">
-        <br>
-         <h2>About Me</h2>
-         <br>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+      <!--about me text-->
+      <div class="card text-white bg-dark mb-3" >
+          <div class="card-header "><h2>About Me</h2></div>
+          <div class="card-body">
+   
             <img src="Assets/images/kalieshapickering.jpeg" class="rounded float-left picture" alt="Kaliesha Pickering" />
           
                 <p class="about-me"> Kaliesha is an impactful leader that uses her 7 years’ experience to drive success through team culture, positive reinforcement, and motivational coaching. With a diverse exposure of the telecommunication industry and machine-to machine technologies.</p>
@@ -56,10 +52,31 @@
              
                 <p class="about-me"> Kaliesha is also currently enrolled at the University of Toronto School of Continuing Studies to develop the skills to become a MERN developer. Kaliesha's next steps after the program has been completed is to apply to Trilogy to become a TA for the Full-Stack Flex program, and then venture more into the tech-world by becoming employed by a leader in the technology vertical that focuses mainly on robotic programming. With saying this, after the program is completed, Kaliesha will continue on the path of learning and master the coding languages Python and C++. </p>
                
-            
-               
-               
+          
             </div>
+            </div>
+          </div>
+          <!--connect with me box-->
+          <div class="col-sm-3">
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header ">Connect With Me!</div>
+  <div class="card-body">
+      <div class="connect-links ">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/kaliesha-pickering-855987a2/" target="_blank">
+                  <img src="Assets/images/linkedinlogo.jpg" width="30" height="30" alt="linkedin">
+                </a>
+                <a class="navbar-brand" href="https://github.com/kalieshapickering" target="_blank">
+                      <img src="Assets/images/github.png" width="30" height="30" alt="GitHub">
+                    </a><a class="navbar-brand" href="https://stackoverflow.com/users/9915373/kaliesha-pickering?tab=profile" target="_blank">
+                          <img src="Assets/images/stackoverflow.png"  width="30" height="30" alt="Stack Overflow">
+                        </a>
+                      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
         </main>
         <footer id="footer">
                 <span class="text-muted">Copyright © Kaliesha Pickering 2018</span>

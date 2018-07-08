@@ -1,72 +1,44 @@
 body{
     background-image: url(../images/connectwork.png);
+   
 }
 /* sticky footer  */
 #footer { 
     position: fixed; 
     bottom: 0; 
     width: 100%; 
-    background-color: black;
   line-height: 40px;
     text-align: center; 
     font-size: 12px;
 }
 #contact-form{
-    width: 100%;
-    height:auto;
+
     background-color: darkgray;
-    padding: 15px;
-    border-color:   gray;
- 
-    
+    padding: 15px;   
+    border-style: solid;
+    border-color:goldenrod; 
+    border-radius: 10px;
+}
+.contact-me{
+    margin-left: 30%;
 }
 .about-me{
     color: white;
     padding: 5px;
     margin-left: 10px;
+  
 }
 h2{
     color: white;
+    text-transform: uppercase;
+  
 }
-#portfolio-image{
-    height: 250px;
-    width: 250px;
-    padding: 10px;
-}
-.portfolio-body{
-    background-color: black;
-    margin-left: 20%;
-    width: 55%;
-    height: auto;
-    overflow: scroll;
-    border-style: groove;
-    border-width: 10px;
-    padding: 10px;
-}
-.contact-body{
-    background-color: black;
-    margin-left: 25%;
-    width: 50%;
-    border-style: groove;
-    border-width: 10px;
-    padding: 10px;
-}
-.index-body{
-    background-color: black;
-    margin-left: 20%;
-    width: 60%;
-    height: 50%;
-    color: white;
-    border-style: groove;
-    border-width: 10px;
-    padding: 10px;
 
-}
-.connect-links{
-    margin-left: 35%;
-}
 .name{
-margin-left: 20%;
+    margin-left: 13%;
+text-transform: uppercase;
+font-weight: bold;
+
 }
 .navbar-collapse{
    margin-left: 30%;
@@ -79,36 +51,4 @@ margin-left: 20%;
     border-color: white;
   
 }
-.hangman{
-        color:white;
-        Position: absolute;
-        Z-index: 1;
-        bottom: 333px;
-        left: 389px;
-        background-color: black;
-        padding: 20px;
-        text-align: center;
-        width: 250px;
-   
-}
-.rpg-game{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    color: white;
-}
-.trivia-game{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.info-widget{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.rock-paper-scissors{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
+
