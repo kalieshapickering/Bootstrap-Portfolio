@@ -20,7 +20,7 @@ body{
     border-radius: 10px;
 }
 .contact-me{
-    margin-left: 30%;
+    margin-left: 10%;
 }
 .about-me{
     color: white;
@@ -35,14 +35,11 @@ h2{
 }
 
 .name{
-    margin-left: 13%;
 text-transform: uppercase;
 font-weight: bold;
 
 }
-.navbar-collapse{
-   margin-left: 30%;
-}
+
 .picture{
     padding: 5px;
     margin: 10px;
