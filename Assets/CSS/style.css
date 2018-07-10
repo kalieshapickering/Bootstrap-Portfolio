@@ -2,15 +2,7 @@ body{
     background-image: url(../images/connectwork.png);
    
 }
-/* sticky footer  */
-#footer { 
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-  line-height: 40px;
-    text-align: center; 
-    font-size: 12px;
-}
+
 #contact-form{
 
     background-color: darkgray;
